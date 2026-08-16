@@ -52,11 +52,6 @@ is the dense linear transport `J_l h_l`.
 | `docs/` | Preregistration, deviations, diagnostics, and extension notes |
 | `provenance/` | Validation manifest with hashes and pinned revisions |
 
-The separate whole-cortex experiment that motivated the later cross-study
-comparison remains in its own repository:
-[`lucas-nunn/natural-j-scenes`](https://github.com/lucas-nunn/natural-j-scenes/tree/8389a3897a29c043bf12462b804400e999baa330).
-Its paper and result files are not duplicated here.
-
 ## Installation and checks
 
 Python 3.10 or later is required.
