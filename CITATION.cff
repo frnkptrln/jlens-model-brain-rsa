@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the accompanying paper."
-title: "Mind the Gap: Measurement Dependence in the Brain Alignment of Jacobian-Transported Language Representations"
+message: "If you use this experiment code or its derived results, please cite this software."
+title: "J-Lens × NSD RSA Experiment"
 type: software
 version: 0.1.0
 date-released: 2026-08-16
