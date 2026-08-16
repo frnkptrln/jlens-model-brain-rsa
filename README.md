@@ -12,8 +12,9 @@ representations changes their representational similarity to fMRI responses from
 the Natural Scenes Dataset (NSD). Two complementary pipelines produced different
 answers:
 
-- **Study A — whole-cortex searchlight:** late Qwen3.5-4B layers showed small,
-  spatially localized positive changes in RSA after transport.
+- **Study A — whole-cortex searchlight:** late Qwen3.5-4B layers showed small
+  positive changes that were spatially non-uniform but did not isolate a
+  candidate workspace network.
 - **Study B — targeted ROI analysis:** the preregistered Qwen3-4B aggregate over
   layers 18 and 27 and ventral, lateral, and parietal ROIs was lower after
   transport (mean delta = -0.01224; exact two-sided sign-flip p = 0.0078125;
