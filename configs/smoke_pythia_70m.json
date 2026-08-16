@@ -1,0 +1,18 @@
+{
+  "model_name": "EleutherAI/pythia-70m-deduped",
+  "model_revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+  "lens_repo": "neuronpedia/jacobian-lens",
+  "lens_revision": "16a01f309fcec900fdcec3f4cd5b64f3d00e4d5a",
+  "lens_filename": "pythia-70m-deduped/jlens/Salesforce-wikitext/pythia-70m-deduped_jacobian_lens.pt",
+  "layers": [1, 2, 3, 4],
+  "prompt_templates": {
+    "raw": "{caption}",
+    "imagine": "Imagine the visual scene described by this caption: {caption}"
+  },
+  "primary_prompt": "raw",
+  "max_length": 128,
+  "batch_size": 32,
+  "dtype": "float32",
+  "device": "cpu",
+  "seed": 20260815
+}

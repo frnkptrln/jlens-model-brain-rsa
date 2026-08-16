@@ -1,0 +1,13 @@
+{
+  "analysis_status": "exploratory extension frozen after the original raw-layer-18/27 result",
+  "claim_boundary": "Dense Jacobian transport is an indirect J-lens diagnostic, not formal sparse non-negative J-space and not evidence of a homologous neural workspace.",
+  "fdr_family": "18 new prompt-by-layer-by-ROI cells",
+  "model_rdms": "jspace-fmri-pilot/results/extension/model_rdms_all.npz",
+  "n_fdr_rejections": 17,
+  "n_new_cells": 18,
+  "n_subjects": 8,
+  "new_cells_negative": 15,
+  "new_cells_positive": 3,
+  "paired_table": "jspace-fmri-pilot/results/extension/rsa/paired_contrasts.csv",
+  "schema_version": 1
+}

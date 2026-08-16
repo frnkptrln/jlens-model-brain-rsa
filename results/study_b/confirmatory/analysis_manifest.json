@@ -1,0 +1,49 @@
+{
+  "expected_subjects": 8,
+  "inference_unit": "participant",
+  "model_features": [],
+  "model_rdms": [
+    "results/qwen3_4b/model_rdms.npz"
+  ],
+  "multiplicity": "Benjamini-Hochberg within confirmatory/exploratory prompt family",
+  "n_model_images": 515,
+  "n_subjects": 8,
+  "neural_dir": "results/neural_raw",
+  "noise_ceiling_available": true,
+  "primary_locations": [
+    "layer_18",
+    "layer_27"
+  ],
+  "primary_prompt": "raw",
+  "primary_rois": [
+    "lateral",
+    "parietal",
+    "ventral"
+  ],
+  "primary_test": "exact two-sided paired sign-flip test",
+  "rdm_metric": "correlation",
+  "representations": [
+    "jlens__raw__layer_18",
+    "jlens__raw__layer_27",
+    "raw__raw__layer_18",
+    "raw__raw__layer_27"
+  ],
+  "require_complete": true,
+  "rois": [
+    "lateral",
+    "parietal",
+    "ventral"
+  ],
+  "rsa_method": "pearson",
+  "schema_version": 1,
+  "subjects": [
+    "subj01",
+    "subj02",
+    "subj03",
+    "subj04",
+    "subj05",
+    "subj06",
+    "subj07",
+    "subj08"
+  ]
+}

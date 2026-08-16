@@ -1,0 +1,18 @@
+{
+  "model_name": "Qwen/Qwen3-4B",
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "lens_repo": "neuronpedia/jacobian-lens",
+  "lens_revision": "16a01f309fcec900fdcec3f4cd5b64f3d00e4d5a",
+  "lens_filename": "qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_jacobian_lens.pt",
+  "layers": [9, 18, 27, 34],
+  "prompt_templates": {
+    "raw": "{caption}",
+    "imagine": "Imagine the visual scene described by this caption: {caption}"
+  },
+  "primary_prompt": "raw",
+  "max_length": 128,
+  "batch_size": 8,
+  "dtype": "bfloat16",
+  "device": "auto",
+  "seed": 20260815
+}

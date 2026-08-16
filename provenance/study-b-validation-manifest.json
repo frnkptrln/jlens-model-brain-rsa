@@ -1,0 +1,254 @@
+{
+  "analysis_outputs": [
+    {
+      "bytes": 1007,
+      "path": "results/confirmatory/analysis_manifest.json",
+      "sha256": "ee71750c6aff928cc07f4787b4ff777d05f885d6e34d3fe5579c505e1c5f81b2"
+    },
+    {
+      "bytes": 1441,
+      "path": "results/confirmatory/group_contrasts.csv",
+      "sha256": "6838e56541d13a534371740c7fca2d9cd6c9c24c1c74feddfd37cce90ef4d7ec"
+    },
+    {
+      "bytes": 7636,
+      "path": "results/confirmatory/paired_contrasts.csv",
+      "sha256": "8e0a8144188a1ec41f08b94e52aecdea7469b709f69fcfa028eee624f350bcd7"
+    },
+    {
+      "bytes": 160230,
+      "path": "results/confirmatory/primary_delta.png",
+      "sha256": "2ce3fb3cab0c11f8b73817cfa45aa06faf7a6ac264f8454b83e1bbd26d9d23ac"
+    },
+    {
+      "bytes": 623,
+      "path": "results/confirmatory/primary_subject_contrasts.csv",
+      "sha256": "94ad30ee7ddcda3af03dea85de941d64845ec982d876e0b9228cf6473e8f3294"
+    },
+    {
+      "bytes": 582,
+      "path": "results/confirmatory/primary_test.json",
+      "sha256": "4088935a8f2fbf4ef7f2975b655b37d9ca94d45d4004e9e6cce835f0e5fab319"
+    },
+    {
+      "bytes": 895,
+      "path": "results/confirmatory/representation_summary.csv",
+      "sha256": "dbb45bf9f59c10cc777e38470234d4bcf2ab3df3acff35f232c9e6ebbdd1e1c8"
+    },
+    {
+      "bytes": 4774,
+      "path": "results/confirmatory/result_summary.json",
+      "sha256": "e2f0a98135e0a526405f163e654dfcb5ed6085bb4fcb3f39250aef7b511238de"
+    },
+    {
+      "bytes": 11254,
+      "path": "results/confirmatory/rsa_scores.csv",
+      "sha256": "a1a90f5d49fe173379d14dbe5bff3ee6bc0464330316f8b5d22589688ad58937"
+    }
+  ],
+  "claim_boundary": "The result tests dense Jacobian transport for one pinned configuration, not formal sparse J-space, consciousness, or a shared biological mechanism.",
+  "created_at_utc": "2026-08-15T11:15:08.738416+00:00",
+  "model_artifact": {
+    "job_id": "frnk/6a8037871f5885ae605ba901",
+    "path": "results/qwen3_4b/model_rdms.npz",
+    "sha256": "1144916ed3970f4c6ed7e516face8a1ca3eb5bdff01c29253b50f5552a1dc1ed"
+  },
+  "neural": {
+    "downloaded_bytes_total": 235932624000,
+    "manifest_sha256": "bb990aa423a71a759ebf600c403c67d63515a39126be5e618ea508272d5cff4c",
+    "reference_commit": "a60e0eafb8d02841159e344adb732062734bc302",
+    "subjects": [
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "e749bd8fa0cfe2bed4a98f01c02384d7cea802aa0b3a209c45b3b225544e6380",
+        "subject": "subj01"
+      },
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "b8fb14f4f994a7b098733192e9019c7227500924366ac53df1f70d1ff131e1da",
+        "subject": "subj02"
+      },
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "70e691ef89d6c286d5b75786ce0506153a0bfea5a3da8e691313cec487dbe301",
+        "subject": "subj03"
+      },
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "416a28707a3a05ffd794341d24d2c6c3d5b5304dc474bcbe2873e1f7f02d34f0",
+        "subject": "subj04"
+      },
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "fe4767c5d768ae83937957e6fbadc88f6f8cfda9afe13f9e5801af6ea4c8be17",
+        "subject": "subj05"
+      },
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "a513f8403ac6f703d7dd795d021e8f11371dcb406f1b257e06ed10423189bd39",
+        "subject": "subj06"
+      },
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "9b662d956e17a00ab774bf85f42bd88e859a99f2863abc1eed031899b2cbed04",
+        "subject": "subj07"
+      },
+      {
+        "n_images": 515,
+        "n_sessions_with_targets": 30,
+        "rois": {
+          "lateral": {
+            "vertices_retained": 20790,
+            "vertices_total": 20790
+          },
+          "parietal": {
+            "vertices_retained": 9990,
+            "vertices_total": 9990
+          },
+          "ventral": {
+            "vertices_retained": 19065,
+            "vertices_total": 19065
+          }
+        },
+        "sha256": "611fc5fba6f0d3b1da407d4a4313aa80021e9439f12148314ef1bd430b2cb566",
+        "subject": "subj08"
+      }
+    ]
+  },
+  "primary": {
+    "cohens_dz": -3.0679436075580404,
+    "locations": [
+      "layer_18",
+      "layer_27"
+    ],
+    "mean_delta": -0.012243036116565218,
+    "mean_rsa_jlens": 0.08557559498565294,
+    "mean_rsa_raw": 0.09781863110221817,
+    "n_components_per_subject": [
+      6
+    ],
+    "n_subjects": 8,
+    "p_signflip_two_sided": 0.0078125,
+    "p_t_two_sided": 5.4052169699649823e-05,
+    "prompt": "raw",
+    "rois": [
+      "lateral",
+      "parietal",
+      "ventral"
+    ],
+    "sem_delta": 0.0014109017256718434,
+    "t": -8.677454916808843,
+    "test": "mean J-lens-minus-raw RSA across preregistered ROI x layer components"
+  },
+  "quality_control": "passed",
+  "schema_version": 1,
+  "tests": {
+    "pytest": "12 passed",
+    "ruff": "all checks passed"
+  }
+}

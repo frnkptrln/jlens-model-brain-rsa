@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jspace-fmri-pilot"
+version = "0.1.0"
+description = "A preregistered pilot comparing Jacobian-lens and raw language-model geometry with NSD fMRI geometry."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "nibabel>=5.3",
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+model = [
+  "torch>=2.3",
+  "transformers>=5.5",
+  "huggingface-hub>=0.30",
+  "httpx[socks]>=0.27",
+  "safetensors>=0.4",
+  "jlens @ git+https://github.com/anthropics/jacobian-lens.git@581d398613e5602a5af361e1c34d3a92ea82ba8e",
+]
+mpnet = [
+  "sentence-transformers>=3.0",
+]
+dev = [
+  "matplotlib>=3.8",
+  "pytest>=8.0",
+  "ruff>=0.9",
+]
+
+[project.scripts]
+jspace-prepare-nsd = "jspace_fmri.nsd:main"
+jspace-raw-nsd = "jspace_fmri.raw_nsd:main"
+jspace-extract = "jspace_fmri.extract_jlens:main"
+jspace-extract-mpnet = "jspace_fmri.extract_mpnet:main"
+jspace-import-visuo = "jspace_fmri.import_visuo:main"
+jspace-rsa = "jspace_fmri.analysis:main"
+jspace-merge-recovery = "jspace_fmri.recovery:main"
+jspace-extension = "jspace_fmri.extension:main"
+jspace-geometry-controls = "jspace_fmri.geometry_controls:main"
+jspace-simulate = "jspace_fmri.simulate:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

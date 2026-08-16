@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-08-16",
+  "parent_config": "configs/pilot_qwen3_4b.json",
+  "prompt": "raw",
+  "layers": [18, 27],
+  "preprocessing_branches": ["final_gain", "no_final_norm"],
+  "representations": ["raw", "actual", "polar"],
+  "n_coordinate_permutation_controls": 63,
+  "control_seed": 20260816,
+  "rdm_metric": "correlation",
+  "rsa_method": "pearson",
+  "rois": ["ventral", "lateral", "parietal"],
+  "n_subjects": 8,
+  "n_images": 515,
+  "n_captions": 2578,
+  "primary_contrast": "polar_minus_actual",
+  "primary_alternative": "greater",
+  "rdm_max_abs_reproduction_tolerance": 0.00005,
+  "rdm_correlation_reproduction_tolerance": 0.000001
+}

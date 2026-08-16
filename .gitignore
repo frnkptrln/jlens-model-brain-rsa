@@ -1,0 +1,21 @@
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+
+# Local data and large recomputation products
+data/raw/
+data/processed/
+data/raw_nsd_metadata/
+results/neural_raw/
+results/**/model_rdms*.npz
+results/**/single/
+results/**/prepared*.py
+*.nii
+*.nii.gz
+*.hdf5
+*.pkl
+*.pickle

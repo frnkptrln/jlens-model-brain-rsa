@@ -1,0 +1,156 @@
+{
+  "claim_boundary": "A negative RSA contrast for this J-lens-derived transport is not a general refutation of formal J-space or evidence about consciousness/global workspace in the human brain.",
+  "components": [
+    {
+      "cohens_dz": -3.267602362994301,
+      "location": "layer_18",
+      "mean_delta": -0.017729331451113,
+      "mean_rsa_jlens": 0.0673127933518434,
+      "mean_rsa_raw": 0.0850421248029565,
+      "n_subjects": 8,
+      "p_signflip_fdr": 0.015625,
+      "p_signflip_two_sided": 0.0078125,
+      "reject_fdr_0_05": true,
+      "roi": "lateral",
+      "sem_delta": 0.0019183072329979
+    },
+    {
+      "cohens_dz": 0.5215359161671065,
+      "location": "layer_27",
+      "mean_delta": 0.0030165461035734,
+      "mean_rsa_jlens": 0.0930230898325753,
+      "mean_rsa_raw": 0.0900065437290018,
+      "n_subjects": 8,
+      "p_signflip_fdr": 0.1953125,
+      "p_signflip_two_sided": 0.1953125,
+      "reject_fdr_0_05": false,
+      "roi": "lateral",
+      "sem_delta": 0.0020449408559191
+    },
+    {
+      "cohens_dz": -4.5728183583889015,
+      "location": "layer_18",
+      "mean_delta": -0.0197631143512666,
+      "mean_rsa_jlens": 0.0597249529084927,
+      "mean_rsa_raw": 0.0794880672597594,
+      "n_subjects": 8,
+      "p_signflip_fdr": 0.015625,
+      "p_signflip_two_sided": 0.0078125,
+      "reject_fdr_0_05": true,
+      "roi": "parietal",
+      "sem_delta": 0.0015280108545651
+    },
+    {
+      "cohens_dz": -1.2868221806781788,
+      "location": "layer_27",
+      "mean_delta": -0.0066246779068109,
+      "mean_rsa_jlens": 0.06955389435237,
+      "mean_rsa_raw": 0.0761785722591809,
+      "n_subjects": 8,
+      "p_signflip_fdr": 0.0234375,
+      "p_signflip_two_sided": 0.015625,
+      "reject_fdr_0_05": true,
+      "roi": "parietal",
+      "sem_delta": 0.0018201250885394
+    },
+    {
+      "cohens_dz": -7.878423641362854,
+      "location": "layer_18",
+      "mean_delta": -0.0265216866713601,
+      "mean_rsa_jlens": 0.1008704314572221,
+      "mean_rsa_raw": 0.1273921181285823,
+      "n_subjects": 8,
+      "p_signflip_fdr": 0.015625,
+      "p_signflip_two_sided": 0.0078125,
+      "reject_fdr_0_05": true,
+      "roi": "ventral",
+      "sem_delta": 0.0011901914232794
+    },
+    {
+      "cohens_dz": -1.093919405578731,
+      "location": "layer_27",
+      "mean_delta": -0.0058359524224139,
+      "mean_rsa_jlens": 0.1229684080114139,
+      "mean_rsa_raw": 0.1288043604338278,
+      "n_subjects": 8,
+      "p_signflip_fdr": 0.0375,
+      "p_signflip_two_sided": 0.03125,
+      "reject_fdr_0_05": true,
+      "roi": "ventral",
+      "sem_delta": 0.0018861725605771
+    }
+  ],
+  "created_at_utc": "2026-08-15T11:05:21.041831+00:00",
+  "inference_unit": "participant",
+  "model_artifact": {
+    "hf_job_id": "frnk/6a8037871f5885ae605ba901",
+    "path": "results/qwen3_4b/model_rdms.npz",
+    "sha256": "1144916ed3970f4c6ed7e516face8a1ca3eb5bdff01c29253b50f5552a1dc1ed"
+  },
+  "neural_qc": {
+    "downloaded_bytes_total": 235932624000,
+    "images_per_subject": 515,
+    "rdm_entries_per_roi": 132355,
+    "reference_commit": "a60e0eafb8d02841159e344adb732062734bc302",
+    "reference_pipeline": "adriendoerig/visuo_llm",
+    "subjects": 8,
+    "vertices_retained": {
+      "lateral": 20790,
+      "parietal": 9990,
+      "ventral": 19065
+    }
+  },
+  "noise_ceiling_by_roi": {
+    "lateral": {
+      "max": 0.5907083812054196,
+      "mean": 0.47399158150570797,
+      "min": 0.247210156444372,
+      "sem": 0.041797603213769366
+    },
+    "parietal": {
+      "max": 0.5304176159821232,
+      "mean": 0.3768534639909033,
+      "min": 0.2006289660252477,
+      "sem": 0.03609714187994947
+    },
+    "ventral": {
+      "max": 0.8014938388584221,
+      "mean": 0.7230078321840427,
+      "min": 0.6303170572252528,
+      "sem": 0.023007311919201343
+    }
+  },
+  "outcome": "Jacobian transport reduced the preregistered aggregate RSA in all eight participants.",
+  "primary": {
+    "cohens_dz": -3.0679436075580404,
+    "locations": [
+      "layer_18",
+      "layer_27"
+    ],
+    "mean_delta": -0.012243036116565218,
+    "mean_rsa_jlens": 0.08557559498565294,
+    "mean_rsa_raw": 0.09781863110221817,
+    "n_components_per_subject": [
+      6
+    ],
+    "n_subjects": 8,
+    "p_signflip_two_sided": 0.0078125,
+    "p_t_two_sided": 5.4052169699649823e-05,
+    "prompt": "raw",
+    "rois": [
+      "lateral",
+      "parietal",
+      "ventral"
+    ],
+    "sem_delta": 0.0014109017256718434,
+    "t": -8.677454916808843,
+    "test": "mean J-lens-minus-raw RSA across preregistered ROI x layer components"
+  },
+  "primary_noise_ceiling_corrected_descriptive": {
+    "mean_delta": -0.023813727972759276,
+    "mean_jlens": 0.16657977153482273,
+    "mean_raw": 0.190393499507582,
+    "sem_delta": 0.001983519074226056
+  },
+  "schema_version": 1
+}

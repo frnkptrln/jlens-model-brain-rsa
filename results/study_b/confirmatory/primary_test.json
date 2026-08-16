@@ -1,0 +1,25 @@
+{
+  "cohens_dz": -3.0679436075580404,
+  "locations": [
+    "layer_18",
+    "layer_27"
+  ],
+  "mean_delta": -0.012243036116565218,
+  "mean_rsa_jlens": 0.08557559498565294,
+  "mean_rsa_raw": 0.09781863110221817,
+  "n_components_per_subject": [
+    6
+  ],
+  "n_subjects": 8,
+  "p_signflip_two_sided": 0.0078125,
+  "p_t_two_sided": 5.4052169699649823e-05,
+  "prompt": "raw",
+  "rois": [
+    "lateral",
+    "parietal",
+    "ventral"
+  ],
+  "sem_delta": 0.0014109017256718434,
+  "t": -8.677454916808843,
+  "test": "mean J-lens-minus-raw RSA across preregistered ROI x layer components"
+}
