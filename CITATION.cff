@@ -5,10 +5,6 @@ type: software
 version: 0.1.0
 date-released: 2026-08-16
 authors:
-  - family-names: Nunn
-    given-names: Lucas
-  - family-names: Borchers
-    given-names: Anke
   - family-names: Peterlein
     given-names: Frank
 repository-code: "https://github.com/frnkptrln/mind-the-gap-jlens-nsd"
