@@ -92,6 +92,25 @@ python scripts/make_extension_figure.py \
   --output results/extension/layer_trajectory.png
 ```
 
+## Audit the published primary result without model extraction
+
+```bash
+python scripts/audit_confirmatory.py
+```
+
+This read-only command checks the 96 released RSA scores against the 48 paired
+ROI × layer cells, reconstructs the eight participant means, and enumerates all
+256 sign assignments. It compares the aggregate means, SEM, paired effect size,
+t statistic, t-test p-value and exact sign-flip p-value with both published JSON
+summaries. Missing or duplicate cells, nonfinite values and mismatched summaries
+cause a nonzero exit. The JSON report includes hashes of all five input files.
+SciPy is required; no model weights or NSD data are loaded.
+
+This verifies the consistency of the released confirmatory summaries. It does not
+repeat model extraction, brain preprocessing, RDM construction or the extension,
+and does not independently validate the original observations. No frozen result
+file is overwritten. CI runs this audit alongside the unit suite.
+
 ## Data availability
 
 No NSD images, raw fMRI files, response arrays, captions, credentials, or large
