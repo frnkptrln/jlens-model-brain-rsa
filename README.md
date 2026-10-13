@@ -3,6 +3,11 @@
 Reproducibility repository for a targeted-region experiment conducted during
 the Digital Minds Research Sprint (August 2026).
 
+**Submitted state.** The repository as it stood at the sprint submission is
+commit [`e9ae3e8`](https://github.com/frnkptrln/jlens-model-brain-rsa/commit/e9ae3e83658edafb3b44030a205e86c574f17e3c) (16 August 2026), tagged `submitted`. Everything
+after it is dated and says what it changes relative to that state; the released
+summaries and the frozen analysis documents do not change.
+
 ## Research question
 
 Does dense Jacobian transport change the representational similarity between
